@@ -1,8 +1,6 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include <fstream>
-#include <boost/lexical_cast.hpp>
 
 enum class Color {red,green, blue};
 enum class Size {small, medium, large };
@@ -102,7 +100,7 @@ public:
 
 };
 
-int main()
+int main2()
 {
 	Product apple{ "Apple", Color::green, Size::small };
 	Product tree{ "Tree", Color::green, Size::large };

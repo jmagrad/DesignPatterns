@@ -131,6 +131,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Interface_Segregation_Principle.cpp" />
+    <ClCompile Include="Liskov_Substitution_Principle.cpp" />
     <ClCompile Include="Open_Close_Principle.cpp" />
     <ClCompile Include="SingleResponsibilityPrinciple.cpp" />
   </ItemGroup>

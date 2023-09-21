@@ -21,5 +21,11 @@
     <ClCompile Include="Open_Close_Principle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Liskov_Substitution_Principle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface_Segregation_Principle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
