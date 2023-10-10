@@ -2,6 +2,11 @@
 #include <string>
 #include <vector>
 
+
+/*
+* The open-closed principle states that software entities 
+should be open for extension, but closed for modification.
+*/
 enum class Color {red,green, blue};
 enum class Size {small, medium, large };
 
