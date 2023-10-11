@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 
+class PersonBuilder;
 class Person
 {
 
@@ -8,6 +9,8 @@ class Person
 
 	std::string company_name, position;
 	int annual_income{ 0 };
+
+	static PersonBuilder create();
 
 	friend class PersonBuilder;
 	friend class PersonJobBuilder;

@@ -129,10 +129,13 @@
   <ItemGroup>
     <ClCompile Include="FluentBuilder.cpp" />
     <ClCompile Include="GroofyBuilder.cpp" />
+    <ClCompile Include="Person.cpp" />
+    <ClCompile Include="PersonBuilder.cpp" />
     <ClCompile Include="SimpleBuilder.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.hpp" />
+    <ClInclude Include="PersonBuilder.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
