@@ -26,6 +26,22 @@ class MFP : public IMachine
 	}
 };
 
+class Scanner : public IMachine
+{
+	void print(Document& doc) override
+	{
+		//maybe throw exception or null
+	}
+	void scan(Document& doc) override
+	{
+		//ok to implement
+	}
+	void fax(Document& doc) override
+	{
+
+	}
+};
+
 int main()
 {
 
