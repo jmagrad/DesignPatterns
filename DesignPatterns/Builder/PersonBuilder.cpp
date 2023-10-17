@@ -1,4 +1,14 @@
 #include "PersonBuilder.hpp"
+#include "PersonAddressBuilder.hpp"
+#include "PersonJobBuilder.hpp"
 
+PersonAddressBuilder PersonBuilderBase::lives() const
+{
+	return PersonAddressBuilder{ person };
+}
 
-PersonBuilder::PersonBuilder():PersonBuilderBase(p){}
+PersonJobBuilder PersonBuilderBase::works() const
+{
+	return PersonJobBuilder{person};
+}
+
