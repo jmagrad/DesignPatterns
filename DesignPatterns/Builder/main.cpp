@@ -8,10 +8,13 @@ using namespace std;
 
 int main()
 {
-	Person p = Person::create().lives().at("123 London Rd")
-		.with_postcode("98102").in("London")
+	Person p = Person::create()
+		.lives()
+			.at("123 London Rd")
+			.with_postcode("98102").in("London")
 		.works().at("Blue")
-		.as_a("SDE").earning(800000);
+			.as_a("SDE")
+			.earning(800000);
 
 	return 0;
 }
