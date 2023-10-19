@@ -127,8 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AbstractFactory.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Point.cpp" />
     <ClCompile Include="PointFactoryClass.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DrinkFactory.hpp" />
+    <ClInclude Include="HotDrink.hpp" />
+    <ClInclude Include="HotDrinkFactory.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
